@@ -7,3 +7,27 @@ git push origin master
 import sys
 sys.path.append(r'/home/peng/learnredis')
 from XXXXXXXX import XXXXXXXXX
+
+
+help('modules')
+
+
+编译安装Python时系统缺少zlib组件导致setuptools无法安装
+安装好zlib后重新编译Python即可
+
+
+select user();   ---查看mysql当前用户
+select host,user,password from mysql.user;
+mysqladmin -u root -p password 123456 --更改root密码为123456，后续需输入原密码
+set password for 'peng'@'localhost'=PASSWORD('XSXXXXXXXXX');
+
+show grants for peng;
+grant all privileges on python3.* to peng@localhost identified by '1234';
+flush privileges;
+
+MySQL密码重置
+mysqld_safe --skip-grant-tables &
+然后以无密码模式登录root修改密码
+update mysql.user set password=PASSWORD('XXXXXXXXXXXXXXXX') where user='XXXXX';
+
+http://www.runoob.com/python3/python3-mysql.html
