@@ -1,0 +1,9 @@
+git remote add origin git@github.com:pengtangkun/learnredis.git
+git add XXXXX.txt
+git commit -m 'XXXXXXXXXX'
+git push origin master
+
+
+import sys
+sys.path.append(r'/home/peng/learnredis')
+from XXXXXXXX import XXXXXXXXX
