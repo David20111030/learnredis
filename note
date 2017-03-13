@@ -31,3 +31,19 @@ mysqld_safe --skip-grant-tables &
 update mysql.user set password=PASSWORD('XXXXXXXXXXXXXXXX') where user='XXXXX';
 
 http://www.runoob.com/python3/python3-mysql.html
+
+type(data)  查看数据类型
+
+
+umasl,setfacl 设置新文件默认权限
+
+http://www.yiibai.com/redis/redis_quick_guide.html  --redis基础
+http://lib.csdn.net/base/redis			    --redis知识库
+http://docs.pythontab.com/python/python3.4/index.html	--Python3中文手册
+
+scrapy startproject tutorial    --开始一个scrapy项目
+scrapy crawl dmoz		--启动一个scrapy项目
+scrapy shell "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/"   --在Shell中尝试Selector选择器
+scrapy crawl dmoz -o items.json   --保存爬取到的数据
+
+scrapy genspider mydomain mydomain.com    --创建一个新的spider
